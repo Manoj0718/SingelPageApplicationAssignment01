@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Singel Page Application Assignment 01</string>
+    <string name="about">ABOUT</string>
+    <string name="agenda">AGENDA</string>
+    <string name="lifelight">Lifelight</string>
+    <string name="mail">MAIL</string>
+    <string name="lifelight_coaching_helpt_jou_om">Lifelight Coaching helpt jou om</string>
+    <string name="www_lifelightsucesscoaching_be">www.lifelightsucesscoaching.be</string>
+    <string name="www_lifelightsuccescoaching_be">www.lifelightsuccescoaching.be</string>
+</resources>

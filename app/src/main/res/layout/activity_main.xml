@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.singelpageapplicationassignment01.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/androidlogo"
+        android:layout_width="48dp"
+        android:layout_height="58dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/androidlogo" />
+
+    <TextView
+        android:id="@+id/Lifelight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/androidlogo"
+        android:background="#FF4081"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:text="@string/lifelight"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="58sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/MAIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:autoLink="email"
+        android:text="@string/mail" />
+
+
+
+    <Button
+        android:id="@+id/About"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/about" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/agenda" />
+
+    <ImageView
+        android:id="@+id/androidlife"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/MAIL"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/androidlogo"
+        android:layout_marginTop="6dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/androidlong" />
+
+    <TextView
+        android:id="@+id/LifelightCoaching"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Lifelight"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/lifelight_coaching_helpt_jou_om"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/ww"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/MAIL"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+
+        android:autoLink="web"
+        android:text="@string/www_lifelightsuccescoaching_be"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColorLink="#FFF" />
+
+    <TextView
+        android:id="@+id/jouw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LifelightCoaching"
+        android:layout_toEndOf="@+id/About"
+
+        android:layout_toRightOf="@+id/About"
+        android:text="jouw innerlijke balans te "
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#FFFF" />
+
+    <TextView
+        android:id="@+id/heron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jouw"
+        android:layout_centerHorizontal="true"
+
+        android:text="herontdekken."
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#FFFF" />
+
+</RelativeLayout>
+
+
